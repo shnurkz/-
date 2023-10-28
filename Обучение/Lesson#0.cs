@@ -12,7 +12,9 @@ namespace Study
         {
             Console.WriteLine("Hello, World!!!");
             int a = 5;
+            string b = "bla la";
             Console.WriteLine(a);
+            Console.WriteLine(b);
             Console.ReadLine();
         }
     }
