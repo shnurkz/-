@@ -10,12 +10,11 @@ namespace Study
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!!!");
-            int a = 5;
-            string b = "bla la";
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.ReadLine();
+            //Типы данных
+            //Основные типы int | float | char | string
+            byte b; //0 до 255
+            sbyte sb; // -128 до 127
+            //minvalue и maxvalue позволяют узнать пределы переменной
         }
     }
 }
