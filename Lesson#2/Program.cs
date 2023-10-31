@@ -4,19 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Study
+namespace Lesson_2
 {
-    internal class Program1
+    internal class Program
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             float result;
             int x, y;
             x = 5;
             y = 2;
-            result = Convert.ToSingle(x) / y;
+            result = Convert.ToSingle (x) / y;
+            Console.WriteLine (Math.PI);
             Console.WriteLine(result);
-            Console.WriteLine(x);
+            Console.WriteLine("Жми капу уже любую! Скрипач не нужен, родной!");
             Console.ReadKey();
         }
     }
